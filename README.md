@@ -10,13 +10,6 @@ Este projeto é uma aplicação web interativa criada com [Streamlit](https://st
 - [Faker](https://faker.readthedocs.io/)
 - [streamlit-autorefresh](https://pypi.org/project/streamlit-autorefresh/)
 
-### Clone o repositório
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-```
-
 ## 🚀 Instalação
 
 ### Siga os passos abaixo para configurar e executar o projeto localmente:
