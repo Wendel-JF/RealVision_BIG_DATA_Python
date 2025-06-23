@@ -23,6 +23,7 @@ def get_clientes():
 
 # Função para pegar a o Faturamento dos produtos Comprados
 
+
 def get_faturamento_anual():
     # Pega o ano atual
     ano_atual = str(datetime.datetime.now().year)
@@ -279,7 +280,7 @@ def get_ultimo_evento():
     return df
 
 
-def atualizar_clientes_periodicamente():
+def atualizar_dados():
     r = random.randint(0, 1)
     if (r == 0):
         # Adicionar entre 0 e 10 clientes
@@ -305,15 +306,3 @@ def atualizar_clientes_periodicamente():
         conn.close()
 
     print("🔄 Atualização da Dashboard.")
-    # threading.Timer(5, atualizar_clientes_periodicamente).start()
-
-
-# def loop_adicionar_evento():
-    # while True:
-    # adicionar_evento_cliente()
-    # time.sleep(1)  # espera 1 segundo antes de adicionar outro evento
-
-
-# Iniciar a thread em segundo plano
-# thread = threading.Thread(target=loop_adicionar_evento, daemon=True)
-# thread.start()

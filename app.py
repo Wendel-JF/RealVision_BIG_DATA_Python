@@ -7,7 +7,7 @@ from criar_graficos import (grafico_coluna, grafico_coluna_lateral,
                             grafico_linha, grafico_pizza)
 # Importar estilos css personalizar de outro arquivo
 from css import Styles
-from querys import (atualizar_clientes_periodicamente, get_clientes,
+from querys import (atualizar_dados, get_clientes,
                     get_clientes_por_faixa_etaria,
                     get_dispositivos_mais_usados, get_faturamento_anual,
                     get_faturamento_mensal, get_faturamento_por_categoria,
@@ -25,8 +25,8 @@ st.title("📊 Dashboard de Clientes - Retail Vision")
 # Atualização automática (a cada 5 segundos)
 st_autorefresh(interval=5000, key="refresh")  # milissegundos
 
-# Atualização os clientes a cada 5 segundos
-atualizar_clientes_periodicamente()
+# Atualização da dashboard com novos dados
+atualizar_dados()
 
 # Carregar os dados
 df_clientes = get_clientes()
