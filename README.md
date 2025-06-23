@@ -15,7 +15,7 @@ John Flavio da Silva - 202404268128
 O projeto Retail Vision tem como objetivo principal a análise do comportamento de clientes no varejo a partir de dados simulados. Utilizando Python, Streamlit., o projeto realiza consultas, visualizações e exibição de dashboards interativos para ajudar na tomada de decisões.
 
 <p align='center'>
-  <img width='500' src='dashboard.gif'>
+  <img width='720' src='dashboard.gif'>
 </p>
 
 ### 2. Objetivo
