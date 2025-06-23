@@ -45,9 +45,3 @@ Analisar os dados de clientes gerados artificialmente, criando visualizações, 
 
 ### 6. Conclusão
 O projeto demonstra a importância do uso de ferramentas de análise de dados no varejo, destacando como dashboards e visualizações interativas podem oferecer insights valiosos sobre o comportamento do consumidor.
-
-
-<<<<<<< HEAD
-=======
-O arquivo app.py contém o código da aplicação web interativa
->>>>>>> 3b50d7f8bfaa4334b266535a3d1b6625622120d3
